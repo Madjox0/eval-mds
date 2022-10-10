@@ -12,9 +12,9 @@ https://github.com/Madjox0/eval-mds.git
 
 ```
 
-# Some tips for using Git
+# Some tips for using Git 🌐
 
-## You have create your first repository
+## You have create your first repository 🥇
 
 ```bash
 
@@ -28,7 +28,7 @@ mkdir name_of_your_project
 
 ```
 
-## Link it to your GitHub IDs
+## Link it to your GitHub IDs 🔗
 
 ```bash
 
@@ -42,7 +42,7 @@ git config --global user.email your_user_mail
 
 ```
 
-## Check the IDs
+## Check the IDs 🔍
 
 ```bash
 
@@ -50,7 +50,7 @@ git config --list
 
 ```
 
-## Initialize git
+## Initialize git 💡
 
 ```bash
 
@@ -58,7 +58,7 @@ git init
 
 ```
 
-## Create the ReadMe.md file
+## Create the ReadMe.md file 📝
 
 ```bash
 
@@ -68,7 +68,7 @@ touch ReadMe.md
 
 md means markdown
 
-## Index the ReadMe.md file
+## Index the ReadMe.md file 📂
 
 ```bash
 
@@ -76,7 +76,7 @@ git add ReadMe.md
 
 ```
 
-## Stage the ReadMe.md file
+## Stage the ReadMe.md file 📌
 
 ```bash
 
@@ -84,7 +84,7 @@ git commit -m "Title_of_the_change"
 
 ```
 
-## Link the repository to the URL
+## Link the repository to the URL 📎
 
 ```bash
 
@@ -92,7 +92,7 @@ git  origin url_of_the_repo
 
 ```
 
-## You have to send the project on the distant repository as master
+## You have to send the project on the distant repository as master ⏳
 
 ```bash
 
@@ -100,7 +100,7 @@ git push -u origin master
 
 ```
 
-## if you modified a file your need to add, then commit and finaly push your work to GitHub
+## if you modified a file your need to add, then commit and finaly push your work to GitHub 📋
 
 ```bash
 
@@ -120,7 +120,7 @@ git push
 
 ```
 
-## this work was realised by
+## this work was realised by 🤝
 
 - [@Madjox0](https://www.github.com/Madjox0)
 
