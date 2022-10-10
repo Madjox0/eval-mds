@@ -52,7 +52,7 @@ header nav a:hover{
 	color: #28b7c5;
 }
 
-/*Bouton*/
+/*Button*/
 
 header button{
 	width: 40px;
@@ -89,7 +89,7 @@ header button:hover span:first-child{
 	transform: translate(10px);
 }
 
-/* section social */
+/* social section */
 
 section#social{
     margin-left: 20px;
@@ -106,26 +106,26 @@ section#social img{
 }
 
 
-/* section primary */
+/* first section */
 
-section#primary {
+section#first {
     background-image:url("assets/background1.png");
     height:100vh;
     background-position: center;
     background-size: cover;
 }
 
-section#primary .gauche{
+section#first .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#primary .gauche h1{
+section#first .left h1{
     font-size: 30px;
 }
 
-section#primary button{
+section#first button{
     font-family: sans-serif;
 	margin: 20px 0;
 	padding-left: 40px;
@@ -137,7 +137,7 @@ section#primary button{
 	cursor: pointer;
 }
 
-section#primary button:hover{
+section#first button:hover{
 	color: black;
 	border: 2px solid #28b7c5;
 	background: #28b7c5;
@@ -176,7 +176,7 @@ section#primary button:hover{
     line-height: 8px;
 }
 
-/* section second */
+/* second section */
 
 section#second {
     display: flex;
@@ -191,11 +191,11 @@ section#second .droite{
     align-items: flex-end;
 }
 
-section#second .GG{
+section#second .metho{
     width: 70%;
 }
 
-section#second .GG img {
+section#second .metho img {
     width:80%;
 }
 
@@ -246,9 +246,9 @@ section#second p, h3{
     text-align: end;
 }
 
-/* section competences */
+/* skill section */
 
-#competences .competences{
+#skill .skill{
 	display: flex;
 	justify-content: space-around;
 	padding-left: 100px;
@@ -257,7 +257,7 @@ section#second p, h3{
 	padding-bottom: 40px;
 }
 
-#competences .competences .idee-projet{
+#skill .skill .idea-project{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -266,7 +266,7 @@ section#second p, h3{
 
 
 
-#competences .competences .reflexion{
+#skill .skill .reflexion{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -274,36 +274,36 @@ section#second p, h3{
 }
 
 
-#competences .competences .deploiement{
+#skill .skill .deploiement{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-#competences .competences h3,p{
+#skill .skill h3,p{
 	display: flex;
 	color: #453b3a;
 	font-family: sans-serif;
 }
 
-#competences .competences p{
+#skill .skill p{
 	font-size: 16px;
 }
 
 
-#competences .competences img {
+#skill .skill img {
 	min-width: 25%;
 	width: 30%;
 }
 
-#competences .btncompt{
+#skill .btnskill{
 	display:flex;
 	justify-content: center;
     padding-bottom: 60px;
 }
 
-#competences .btncompt button{
+#skill .btnskill button{
 	font-family: sans-serif;
 	margin: 20px 0;
 	padding-left: 40px;
@@ -315,25 +315,25 @@ section#second p, h3{
 	cursor: pointer;
 }
 
-#competences .btncompt button:hover{
+#skill .btnskill button:hover{
 	color: black;
 	border: 2px solid #28b7c5;
 	background: #28b7c5;
 }
 
-/* section three */
+/* three section */
 
 section#three {
     display: flex;
 }
 
-section#three .gauche{
+section#three .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#three .gauche h1{
+section#three .left h1{
     font-size: 30px;
 }
 
@@ -354,16 +354,16 @@ section#three button:hover{
 	background: #28b7c5;
 }
 
-section#three #DD{
+section#three #presentation{
     width: 70%;
     margin-left:150px;
 }
 
-section#three #DD img {
+section#three #presentation img {
     width:80%;
 }
 
-/* section four */
+/* four section */
 
 section#four {
     display: flex;
@@ -378,11 +378,11 @@ section#four .droite{
     align-items: flex-end;
 }
 
-section#four .GG{
+section#four .metho{
     width: 70%;
 }
 
-section#four .GG img {
+section#four .metho img {
     width:80%;
 }
 
@@ -432,19 +432,19 @@ section#four p, h3{
     text-align: end;
 }
 
-/* section five */
+/* five section */
 
 section#five {
     display: flex;
 }
 
-section#five .gauche{
+section#five .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#five .gauche h1{
+section#five .left h1{
     font-size: 30px;
 }
 
@@ -466,12 +466,12 @@ section#five button:hover{
 	background: #28b7c5;
 }
 
-section#five #DD{
+section#five #presentation{
     width: 70%;
     margin-left:150px;
 }
 
-section#five #DD img {
+section#five #presentation img {
     width:80%;
 }
 
@@ -494,13 +494,13 @@ section#five textarea{
 
 /* footer */
 
-#col-footer {
+#menu-footer {
     display: flex;
     justify-content:space-around;
     align-items: center;
 }
 
-.col-dvi {
+.menu-dvi {
     display: flex;
     flex-direction: column;
 }
@@ -551,7 +551,7 @@ footer hr{
         max-width: 40%;
     }
 
-    /*Bouton*/
+    /* Button */
  
     header button{ 
        display: block; 
@@ -601,9 +601,9 @@ footer hr{
         display:initial;
     }
 
-    /* competence */
+    /* skill */
 
-    #competences .competences{
+    #skill .skill{
 		flex-wrap: wrap;
 	}
 
@@ -618,15 +618,15 @@ footer hr{
         margin-left: 0;
     }
 
-    /* section primary */
+    /* first section */
 
-    section#primary .gauche {
+    section#first .left {
         width: auto;
         margin-left: 10px;
         margin-left: 0;
     }
 
-    /* section second */
+    /* second section */
 
     section#second{
         flex-direction: column-reverse
@@ -646,18 +646,18 @@ footer hr{
     section#second p, h3 {
         text-align: start;
     }
-    section#second .GG{
+    section#second .metho{
         width:100%;
     }
-    section#second .GG img {
+    section#second .metho img {
         width: 100%;
     }
 
-    /* section three */
+    /* three section */
     section#three {
         flex-direction: column;
     }
-    section#three .gauche {
+    section#three .left {
         margin-left: 0;
         padding: 10px;
         width: auto;
@@ -666,12 +666,12 @@ footer hr{
         display: block;
         text-align: start;
     }
-    section#three #DD {
+    section#three #presentation {
         width: auto;
         margin-left: 20px;
     }
 
-    /* section four */
+    /* four section */
 
     section#four {
         flex-direction: column-reverse;
@@ -690,35 +690,39 @@ footer hr{
     section#four .line {
         align-items: flex-start;
     }
-    section#four .GG {
+    section#four .metho {
         width: auto;
     }
 
-    /* section five */
+    /* five section */
 
     section#five {
         flex-direction: column;
     }
-    section#five .gauche {
+    section#five .left {
         margin-left: 0;
         width: auto;
     }
-    section#five #DD {
+    section#five #presentation {
         width: auto;
         margin-left: 0;
     }
 
     /* footer */
 
-    #col-footer {
+    #menu-footer {
         flex-direction: column;
     }
-    .col-dvi:nth-child(5),.col-dvi:nth-child(4),
-    .col-dvi:nth-child(3),.col-dvi:nth-child(2),
-    .col-dvi:nth-child(1){
+    .menu-dvi:nth-child(5),.menu-dvi:nth-child(4),
+    .menu-dvi:nth-child(3),.menu-dvi:nth-child(2),
+    .menu-dvi:nth-child(1){
         margin-top: 15px;
     }
     footer h3 {
         margin-bottom: 10px;
+    }
+
+    #menu-footer .menu-dvi img{
+        width: 150px;
     }
 }
