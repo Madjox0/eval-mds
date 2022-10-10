@@ -12,9 +12,9 @@ https://github.com/Madjox0/eval-mds.git
 
 ```
 
-# A few tips to use Git
+# Some tips for using Git
 
-## Create your first repository
+## You have create your first repository
 
 ```bash
 
@@ -92,7 +92,7 @@ git  origin url_of_the_repo
 
 ```
 
-## Send the project on the distant repository as master
+## You have to send the project on the distant repository as master
 
 ```bash
 
